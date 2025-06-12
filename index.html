@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIと喋れるよ!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AIとイチャイチャできるサービスです</h1>
+
+        <div class="character-selection">
+            <p>AIの性別を選んでね！</p>
+            <p>男の子</p>
+            <div class="toggle_button">
+                <input id="toggle" class="toggle_input" type='checkbox' />
+                <label for="toggle" class="toggle_label" />
+            </div>
+            <p>女の子</p>
+        </div>
+        <div class="toggle_button">
+            <input id="toggle" class="toggle_input" type='checkbox' />
+            <label for="toggle" class="toggle_label" />
+        </div>
+        
+        <div class="chat-area">
+            <div class="messages" id="messages">
+            </div>
+            <div class="input-area">
+                <input type="text" id="messageInput" placeholder="メッセージを入力...">
+                <button id="sendButton">送信</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
